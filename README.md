@@ -25,27 +25,27 @@
 
 
 # 系统简介
-![AdminEAP首页](/uploadPath/markdown/admineap.png "AdminEAP首页")
+![AdminEAP首页](http://code.admineap.com/uploadPath/markdown/admineap.png "AdminEAP首页")
 
 **AdminEAP** --基于AdminLTE的企业应用开发平台，封装和集成多种组件，提供前端、后端整体解决方案，使Web开发更简单。
 
 ## 系统构成
-** Component 组件集成 **
+**Component 组件集成**
 - 封装和集成多个前端开源组件，让前端开发更简单
 
-** CURD 增删改查**
+**CURD 增删改查**
 - 多种形式的增删改查Demo，让基础功能开发更高效、便捷
 
-** Tool 系统工具**
+**Tool 系统工具**
 - 使用在线工具，更快地辅助系统开发
 
-** Workflow 工作流**
+**Workflow 工作流**
 - 基于Activiti的可视化工作流，支持会签、委托、会商、撤回等多种场景，支撑审批业务流转
 
-** System Security 系统安全 **
+**System Security 系统安全 **
 - 基于Shiro/RBAC的权限管理，同时防范SQL注入、CSRF、XSS攻击
 
-** 典型应用**
+**典型应用**
 - 人脸登录、地图应用、OA办公、流程审批、体检预约等应用实例
 
 
