@@ -1,5 +1,4 @@
-Change Logs 更新日志
-===============
+# 更新日志
 - 2018-03-24     `左侧滚动条不出现+浏览器控制台slimeScroll报错`
 - 2018-02-24     `系统异常统一处理`
 - 2018-02-24     `解决shiro频繁执行doReadSession的问题`
@@ -24,52 +23,50 @@ Change Logs 更新日志
 - 2017-07-18     `新增组织机构选择器`
 - 2017-07-18     `完善权限管理组件`
 
-Introduction 简介
-============
 
-**AdminEAP** -- An Enterprise application development platform base on **[AdminLTE](https://github.com/almasaeed2010/AdminLTE)** . AdminLTE is Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. You can develop you application efficiently by using this platform. AdminEAP make Web development more easy.
+# 系统简介
+![AdminEAP首页](/uploadPath/markdown/admineap.png "AdminEAP首页")
 
-**AdminEAP** -- AdminEAP是一个基于[AdminLTE](https://github.com/almasaeed2010/AdminLTE)的企业应用开发平台，AdminLTE可高度定制化而易于使用，能够适配多种分辨率的终端设备，包括从小型移动设备到大的桌面设备，通过使用AdminEAP能够快速构建信息管理系统。
+**AdminEAP** --基于AdminLTE的企业应用开发平台，封装和集成多种组件，提供前端、后端整体解决方案，使Web开发更简单。
 
-**DEMO**
+## 系统构成
+** Component 组件集成 **
+- 封装和集成多个前端开源组件，让前端开发更简单
 
-AdminEAP官网：[http://www.admineap.com](http://www.admineap.com)
+** CURD 增删改查**
+- 多种形式的增删改查Demo，让基础功能开发更高效、便捷
 
-AdminEAP相关技术文档：[http://code.admineap.com](http://code.admineap.com)
+** Tool 系统工具**
+- 使用在线工具，更快地辅助系统开发
 
-在项目部署时如出现问题，请加QQ群:346837703，或者发送邮件至 admin@admineap.com。
+** Workflow 工作流**
+- 基于Activiti的可视化工作流，支持会签、委托、会商、撤回等多种场景，支撑审批业务流转
 
-如果支持该项目也可通过下面微信和支付宝捐赠，捐赠者将优先获得技术支持。
+** System Security 系统安全 **
+- 基于Shiro/RBAC的权限管理，同时防范SQL注入、CSRF、XSS攻击
+
+** 典型应用**
+- 人脸登录、地图应用、OA办公、流程审批、体检预约等应用实例
 
 
+## 相关资源
+AdminEAP 介绍：[http://code.admineap.com/eap/home](http://code.admineap.com/eap/home)
 
-Overview  概览
-===========
-AdminEAP HomePage:
+AdminEAP demo：[http://www.admineap.com](http://www.admineap.com)
 
-![AdminEAP 官网](https://raw.githubusercontent.com/bill1012/Java-AdminLTE/master/doc/images/admineap.png "AdminEAP homePage")
+AdminEAP 技术文档：[http://code.admineap.com/eap/doc](http://code.admineap.com/eap/doc)
 
-- Component 组件集成
-- CURD Demo 增删改查
-- Tool 系统工具
-- Workflow 工作流
-- System Security 权限与系统安全
+在项目部署时如出现问题，请加QQ群：`346837703`，或者发送邮件至 admin@admineap.com。
+
+如购买专业版及相关服务，请联系QQ：`475572229`，或者发送邮件至`475572229@qq.com`
+关于专业版与开源版本的区别，详见：[http://code.admineap.com/eap/home](http://code.admineap.com/eap/home)
 
 **通过使用AdminEAP框架，能快速构建你的web应用。**
 
-Features 特点
-===========
-- Back-End -- ```Spring MVC```+```Spring```+```Hibernate```+```Maven```
-- Front-End --```FreeMarker```+```AdminLTE```+```Bootstrap validator/treeview/datatable```+```base-modal/base-form```
-- Quartz
-- Shiro+RBAC
-- Activi workflow
-- Redis
-
----------------
+#技术选型
 
 - 后端架构 -- ```Spring MVC```+```Spring```+```Hibernate```+```Maven```
-- 前端架构 --```FreeMarker```+```AdminLTE(base on Bootstrap)```
+- 前端架构 --```FreeMarker```+```AdminLTE```+ `其他bootstrap组件`
 - 快速开发能力 -- 基于```XML```配置的数据列表，支持分页、查询条件、排序等配置
 - 完整的权限系统 -- 基于RBAC+Shiro的权限安全框架
 - 基于Quartz的任务调度器
@@ -82,18 +79,26 @@ Features 特点
 
 想查看更多功能, 请访问官网Demo：http://www.admineap.com
 
-Deploy 部署使用
-=================
+# 系统部署
 **Eclipse下部署**
-
-请访问 [AdminEAP在Eclipse下的部署](http://code.admineap.com/blog/bc4d163c5d45ac86015d55e67d540005)
+- git下载代码
+- AdminEAP目录下执行 ```mvn eclipse:eclipse```后，再执行```mvn clean compile```
+- AdminEAP-framework目录下执行```mvn install```
+- AdminEAP-web下`jdbc.porperties` 中配置数据库连接,(数据库的脚本在doc目录下)
+- AdminEAP-web下`settings.porperties`中配置redis连接
+- 在tomcat或者jetty中启动AdminEAP-web
 
 **Intellij下部署**
+- git下载代码
+- AdminEAP目录下执行 ```mvn idea:idea```后，再执行```mvn clean compile```
+- AdminEAP-framework目录下执行```mvn install```
+- AdminEAP-web下`jdbc.porperties` 中配置数据库连接,(数据库的脚本在doc目录下)
+- AdminEAP-web下`settings.porperties`中配置redis连接
+- 在tomcat或者jetty中启动AdminEAP-web
+
+**如购买了专业版，可远程安装部署**
+
+# 关于版权
+个人学习、个人项目可使用开源版本，不需要授权，商业用途强烈建议购买专业版本，以便我们向大家提供更专业的服务和技术支持。
 
 
-
-Donate 捐赠
-==================
-If you support admineap, you can donate by the following channels , thanks。
-如果你想支持AdminEAP框架，保证AdminEAP框架持续运行，您可以通过以下渠道捐赠支持，请在捐赠时留言，捐赠者将优先获得技术支持。
-!["Donate To billJiang"](https://raw.githubusercontent.com/bill1012/AdminEAP/master/doc/images/donate.png "donate to billJiang")
