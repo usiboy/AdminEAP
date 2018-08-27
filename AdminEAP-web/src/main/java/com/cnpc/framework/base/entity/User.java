@@ -1,16 +1,14 @@
 package com.cnpc.framework.base.entity;
 
-import java.util.Date;
+import com.cnpc.framework.annotation.Header;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-
-import org.springframework.format.annotation.DateTimeFormat;
-
-import com.cnpc.framework.annotation.Header;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.Date;
 
 @Entity
 @Table(name = "tbl_user")
@@ -66,7 +64,7 @@ public class User extends BaseEntity {
     private String openAccount;
 
     @Header(name = "超级管理员")
-    @Column(name = "isSuperAdmin")
+    @Column(name = "isSuperAdmin", updatable=false)
     private String isSuperAdmin;
 
     @Header(name="部门ID")
