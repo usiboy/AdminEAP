@@ -66,7 +66,7 @@ public class User extends BaseEntity {
     private String openAccount;
 
     @Header(name = "超级管理员")
-    @Column(name = "isSuperAdmin")
+    @Column(name = "isSuperAdmin", updatable=false)
     private String isSuperAdmin;
 
     @Header(name="部门ID")
