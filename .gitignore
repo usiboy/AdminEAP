@@ -20,3 +20,5 @@ AdminEAP-framework/target/*
 AdminEAP-web/target/*
 .gitignore.bak
 
+AdminEAP.ipr
+AdminEAP.iws
