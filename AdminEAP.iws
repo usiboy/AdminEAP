@@ -2,7 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8478a7c7-56d9-4e1c-b3e0-a29abd856948" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/base/user/user_profile.html" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/DelegateController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/IdentityController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ModelEditorJsonRestResource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ModelOperationController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ModelPageController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ModelSaveRestResource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ModuleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ProcessDefController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/ProcessInstanceController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/StencilsetRestResource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/controller/UserTaskController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/entity/DelegateHistory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/entity/DelegateInfo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/entity/Module.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/CustomEventListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/EventHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/TaskAssignedListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/TaskCompletedListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/TaskCreatedListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/TestTaskListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/ActivityVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/Constants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/ModelVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/ProcessDefVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/ProcessInstanceVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/TaskDoneVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/pojo/TaskVo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/DelegateService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/HistoryPageService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/IdentityPageService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/RepositoryPageService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/RuntimePageService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/TaskPageService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/CustomGroupEntityManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/CustomGroupEntityManagerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/CustomProcessDiagramGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/CustomUserEntityManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/CustomUserEntityManagerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/DelegateServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/IdentityPageServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/RepositoryPageServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/RuntimePageServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/service/impl/TaskPageServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/controller/DemoController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/controller/LabDemoController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/controller/TrainDemoController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/entity/Train.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/listener/LabTaskCompleteListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/listener/TrainExectuionEndListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/listener/TrainExecutionEndByUserListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/listener/TrainTaskCompleteListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/pojo/ModuleConstants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/AssigneeService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/LabDemoService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/TrainDemoService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/impl/AssigneeServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/impl/LabDemoServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/impl/TrainDemoServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/test/activiti/FormTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/test/activiti/IdentityTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/test/activiti/VacationTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/resources/activiti-en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/resources/activiti-zh.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring-activiti.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/delegate_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/delegate_list_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/delegate_mine.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/delegate_mine_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/lab_detail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/lab_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/lab_modify.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/train_detail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/train_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/train_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/train_modify.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/demo/vacation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/editor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/partials/root-stencil-item-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/partials/stencil-item-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/popups/icon-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/popups/save-model.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/popups/select-shape.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/editor-app/popups/unsaved-changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/id_group_select.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/id_user_select.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/model_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/model_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/model_show.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/modeler.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/module_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/module_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/monitor_show.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/monitor_show_image.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/monitor_show_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/processdef_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/processdef_show.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/processinstance_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/task_list_done.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/task_list_todo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/activiti/task_todo.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/AdminEAP.iws" afterPath="$PROJECT_DIR$/AdminEAP.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -175,17 +276,37 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminEAP.iws" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminEAP.iws" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdminEAP.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4708">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="-3193">
+              <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activiti.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/query/activiti.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -236,8 +357,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/exception/CustomExceptionResolver.java" />
         <option value="$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/activiti/listener/CustomEventListener.java" />
-        <option value="$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml" />
       </list>
     </option>
   </component>
@@ -270,16 +391,31 @@
     <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="/usr/share/maven" />
-        <option name="userSettingsFile" value="/usr/share/maven/conf/settings.xml" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AdminEAP-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AdminEAP-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AdminEAP-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -338,6 +474,109 @@
               <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminEAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminEAP" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminEAP-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -379,6 +618,7 @@
       <recent name="com.cnpc.framework.base.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/base/user" />
       <recent name="$PROJECT_DIR$/AdminEAP-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/AdminEAP-web/src/main/webapp/WEB-INF/views/base" />
       <recent name="$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc" />
@@ -451,6 +691,29 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="AdminEAP-web [tomcat:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/AdminEAP-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -458,6 +721,11 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.AdminEAP-web [tomcat:run]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -503,12 +771,12 @@
       <workItem from="1521902148647" duration="1220000" />
       <workItem from="1525441118715" duration="792000" />
       <workItem from="1535345872902" duration="955000" />
-      <workItem from="1535346902945" duration="246000" />
+      <workItem from="1535346902945" duration="1308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16742000" />
+    <option name="totallyTimeSpent" value="17804000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -524,9 +792,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -544,7 +812,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -555,7 +823,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -632,22 +899,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6072">
-          <caret line="276" column="24" lean-forward="false" selection-start-line="276" selection-start-column="24" selection-end-line="276" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdminEAP-framework/src/main/java/com/cnpc/framework/filter/ShirofilterChainDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -736,13 +987,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/java/com/cnpc/activiti/service/impl/AssigneeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring-activiti.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -921,18 +1165,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring-quartz.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,24 +1229,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminEAP.iws">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4708">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="-3193">
+          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/query/activiti-demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/query/activiti.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring-activiti.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminEAP-web/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
       </provider>
