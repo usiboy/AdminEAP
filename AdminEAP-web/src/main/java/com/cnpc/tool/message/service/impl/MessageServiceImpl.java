@@ -4,7 +4,6 @@ import com.cnpc.framework.base.entity.User;
 import com.cnpc.framework.base.pojo.Result;
 import com.cnpc.framework.base.service.impl.BaseServiceImpl;
 import com.cnpc.framework.constant.RedisConstant;
-import com.cnpc.framework.message.SimpleMailSender;
 import com.cnpc.framework.util.SecurityUtil;
 import com.cnpc.framework.utils.StrUtil;
 import com.cnpc.tool.message.entity.Message;
@@ -200,15 +199,7 @@ public class MessageServiceImpl extends BaseServiceImpl implements MessageServic
      */
     public void sendMessageToUser(Message message, List<User> userList) {
         if (message.getMessageType().indexOf(MessageConstant.TYPE_EMAIL) > -1) {
-            SimpleMailSender mailSender = new SimpleMailSender();
-            for (User user : userList) {
-                try {
-                    //非上线系统注释该接口
-                    //mailSender.send(user.getEmail(), message.getSendSubject(), message.getSendContent());
-                } catch (Exception ex) {
-                    logger.error("向用户【" + user.getName() + ":" + user.getEmail() + "】发送邮件失败，请检查邮箱是否正确");
-                }
-            }
+            // TODO 暂时未实现
         }
 
         if (message.getMessageType().indexOf(MessageConstant.TYPE_SMS) > -1) {
