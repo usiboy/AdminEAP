@@ -134,6 +134,10 @@ function ajaxPost(url, params, callback) {
                 modals.error("操作失败，请刷新重试，具体错误：" + data.message);
                 return false;
             }
+            if(data && typeof(data.success) != 'undefined' && !data.success){
+                modals.error(data.message);
+                return false;
+            }
             if (callback) {
                 callback.call(this, data, status);
             }

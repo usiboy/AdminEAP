@@ -1,14 +1,12 @@
 package com.cnpc.framework.base.service.impl;
 
 import com.cnpc.framework.base.dao.BaseDao;
-import com.cnpc.framework.base.dao.RedisDao;
 import com.cnpc.framework.base.entity.Org;
 import com.cnpc.framework.base.entity.User;
 import com.cnpc.framework.base.entity.UserAvatar;
 import com.cnpc.framework.base.service.UserService;
 import com.cnpc.framework.constant.RedisConstant;
 import com.cnpc.framework.utils.StrUtil;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -33,7 +31,12 @@ public class UserServiceImpl extends BaseServiceImpl implements UserService {
         User user=this.get("from User where loginName='"+loginName+"'");
         if(user!=null&&StrUtil.isNotBlank(user.getDeptId())){
             Org org=this.get("from Org where id='"+user.getDeptId()+"'");
-            user.setDeptLevelCode(org.getLevelCode());
+            if(null != org){
+                user.setDeptLevelCode(org.getLevelCode());
+            }else{
+                // TODO 这里需要优化下
+                user.setDeptLevelCode("000001");
+            }
         }
         return user;
     }

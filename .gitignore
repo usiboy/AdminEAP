@@ -11,6 +11,7 @@ out/*
 *.svn
 *.svn/*
 
+**/*.iml
 
 AdminEAP-web/src/main/resources/jdbc.properties
 AdminEAP-web/src/main/resources/setting.properties

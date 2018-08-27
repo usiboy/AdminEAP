@@ -12,7 +12,9 @@ import com.cnpc.framework.base.service.UserService;
 import com.cnpc.framework.utils.EncryptUtil;
 import com.cnpc.framework.utils.PropertiesUtil;
 import com.cnpc.framework.utils.StrUtil;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.subject.Subject;
 import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Controller;
@@ -87,6 +89,27 @@ public class UserController {
             oldUser.setUpdateDateTime(new Date());
             userService.update(oldUser);
         }
+        return new Result(true);
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/updatepwd")
+    @ResponseBody
+    private Result updatePwd(String oldPwd, String newPwd, HttpServletRequest request){
+        if(StringUtils.isEmpty(newPwd)){
+            return new Result(false, "请设置合理的密码");
+        }
+        Subject subject = SecurityUtils.getSubject();
+        String userId = subject.getPrincipal().toString();
+        User oldUser = this.getUser(userId);
+        // 先验证老密码
+        oldPwd = EncryptUtil.getPassword(oldPwd, oldUser.getLoginName());
+        if(!oldPwd.equals(oldUser.getPassword())){
+            return new Result(false, "旧密码输入的不对");
+        }
+        newPwd = EncryptUtil.getPassword(newPwd, oldUser.getLoginName());
+        oldUser.setPassword(newPwd);
+        oldUser.setUpdateDateTime(new Date());
+        userService.update(oldUser);
         return new Result(true);
     }
 
@@ -199,5 +222,19 @@ public class UserController {
             map.put("name",names);
             return map;
 
+    }
+
+    @RequestMapping(value = "/profile", method = RequestMethod.GET)
+    public String profile(HttpServletRequest request){
+        User user = getSessionUser();
+        request.setAttribute("user", user);
+
+        return "base/user/user_profile";
+    }
+
+    User getSessionUser(){
+        Subject subject = SecurityUtils.getSubject();
+        String userId = subject.getPrincipal().toString();
+        return userService.getUserById(userId);
     }
 }
